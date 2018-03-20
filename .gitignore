@@ -1,6 +1,7 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
+/src
 /dist
 /src
 /dist-server
@@ -45,3 +46,10 @@ testem.log
 Thumbs.db
 .editorconfig
 .angular-cli.json
+.gitignore
+karma.conf.js
+package.json
+protractor.json
+README.md
+tsconfig.json
+tslint.json
