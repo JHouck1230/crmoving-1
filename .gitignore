@@ -3,6 +3,7 @@
 # compiled output
 /src
 /dist
+/src
 /dist-server
 /tmp
 /out-tsc
@@ -43,8 +44,8 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-.angular-cli.json
 .editorconfig
+.angular-cli.json
 .gitignore
 karma.conf.js
 package.json
