@@ -1,6 +1,7 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
+/src
 /dist
 /dist-server
 /tmp
@@ -35,9 +36,19 @@ testem.log
 /typings
 
 # e2e
+/e2e
 /e2e/*.js
 /e2e/*.map
 
 # System Files
 .DS_Store
 Thumbs.db
+.angular-cli.json
+.editorconfig
+.gitignore
+karma.conf.js
+package.json
+protractor.json
+README.md
+tsconfig.json
+tslint.json
