@@ -1,12 +1,33 @@
-#construction {
-  height: 100vh;
-  background-image: url("assets/img/black_trailer_in_tow1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #35363A;
+.navbar {
+  background-color: #000000;
+  padding: 0px;
 }
 
-#const-msg {
-  background-color: #FDFEFF;
-  padding: 1em;
+.nav-item {
+  margin: 0px;
+}
+
+.nav-link {
+  font-size: 2rem;
+  color: #FDFDFD;
+}
+
+.nav-link:hover {
+  background-color: #424242;
+}
+
+#background-1-container {
+  padding: 0px;
+  height: 935px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  z-index: -1;
+}
+
+#background-1 {
+  margin-top: -75px;
+  transform: scale(1.15);
+  opacity: 0.5;
+  position: absolute;
+  z-index: 1;
 }
