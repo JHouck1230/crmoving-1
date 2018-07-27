@@ -4,8 +4,17 @@
   height: 10vh;
 }
 
+ul.nav.justify-content-end {
+  height: 10vh;
+  max-height: 10vh;
+}
+
 .nav-item {
   margin: 0px;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-link {
@@ -15,6 +24,16 @@
 
 .nav-link:hover {
   background-color: #424242;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+a.nav-link.active {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #footer {
@@ -32,4 +51,5 @@
 
 .comp-logo {
   cursor: pointer;
+  height: 10vh;
 }
