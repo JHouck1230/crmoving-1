@@ -2,35 +2,37 @@
   <nav class="navbar fixed-top">
     <img
       alt="Country Roads Moving Logo"
-      class="d-inline-block align-top"
+      class="d-inline-block align-top comp-logo"
+      routerLink="/home"
       src="/assets/img/black_logo.jpeg"
       >
     <ul class="nav justify-content-end">
       <li class="nav-item">
-        <a class="nav-link" href="#">Home</a>
+        <a
+          class="nav-link"
+          routerLink="/home"
+          routerLinkActive="active"
+          >Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Packages</a>
+        <a
+          class="nav-link"
+          routerLink="/about-us"
+          routerLinkActive="active"
+          >About Us</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
+        <a
+          class="nav-link"
+          routerLink="/gallery"
+          routerLinkActive="active"
+          >Gallery</a>
       </li>
     </ul>
   </nav>
-  <div class="row">
-    <div id="background-1-container" class="col">
-      <img
-        id="background-1"
-        class="img-fluid"
-        src="/assets/img/black_trailer_in_tow.jpg"
-        alt=""
-        >
-      <div class="col-md-6">
-        <h1 class="display-1">"Great care and service leads to a smooth successful move."</h1>
-      </div>
-      <div class="col-md-6">
-        
-      </div>
-    </div>
+  <router-outlet></router-outlet>
+  <div class="row d-flex align-items-center justify-content-center" id="footer">
+    <span class="mr-3">Country Roads Moving, LLC</span>&nbsp;|&nbsp;
+    <a class="ml-3" routerLink="/terms">Terms & Conditions</a>
   </div>
 </div>
