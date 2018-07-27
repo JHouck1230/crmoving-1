@@ -10,22 +10,25 @@
       <li class="nav-item">
         <a
           class="nav-link"
+          (click)="activeTab = 'home'"
+          [ngClass]="{ 'active': activeTab === 'home'}"
           routerLink="/"
-          routerLinkActive="active"
           >Home</a>
       </li>
       <li class="nav-item">
         <a
           class="nav-link"
+          (click)="activeTab = 'about-us'"
+          [ngClass]="{ 'active': activeTab === 'about-us'}"
           routerLink="/about-us"
-          routerLinkActive="active"
           >About Us</a>
       </li>
       <li class="nav-item">
         <a
           class="nav-link"
+          (click)="activeTab = 'gallery'"
+          [ngClass]="{ 'active': activeTab === 'gallery'}"
           routerLink="/gallery"
-          routerLinkActive="active"
           >Gallery</a>
       </li>
     </ul>

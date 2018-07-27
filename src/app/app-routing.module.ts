@@ -1,5 +1,9 @@
 import { NgModule }               from '@angular/core';
-import { Routes, RouterModule }   from '@angular/router';
+import {
+  Routes,
+  RouterModule,
+  ExtraOptions
+}                                 from '@angular/router';
 import { HomeComponent }          from './components/home/home.component';
 import { AboutUsComponent }       from './components/about-us/about-us.component';
 import { GalleryComponent }       from './components/gallery/gallery.component';
@@ -34,7 +38,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { useHash: true })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
