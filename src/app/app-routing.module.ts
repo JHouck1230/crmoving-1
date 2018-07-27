@@ -7,7 +7,7 @@ import { TermsComponent }         from './components/terms/terms.component';
 
 const routes: Routes = [
   {
-    path: 'home',
+    path: '',
     component: HomeComponent,
   },
   {
