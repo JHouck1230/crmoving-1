@@ -1,12 +1,13 @@
 #header {
-  height: 58vh;
+  height: 60vh;
+  padding-top: 2em;
 }
 
 .header-bg {
   background-image: url(/assets/img/truck_woods.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0em -13em;
+  background-position: 0em -10em;
   height: 58vh;
   width: 100%;
   position: absolute;
@@ -17,13 +18,13 @@
 }
 
 #packages {
-  height: 100vh;
+  height: 133vh;
   background-color: #7F7E7F;
   color: #FFFFFF;
 }
 
 #testimonials {
-  height: 36vh;
+  height: 50vh;
   background-color: #FFFFFF;
 }
 
@@ -43,8 +44,8 @@
 .testimonial {
   border: 1px solid #000000;
   border-radius: 15px;
-  width: 20em;
-  height: 19vh;
+  width: 15em;
+  height: 32vh;
   background-color: #FEFDFF;
 }
 
@@ -76,4 +77,5 @@
 
 .get-quote {
   background-color: rgba(226, 227, 229, 0.65) !important;
+  width: 40%;
 }
