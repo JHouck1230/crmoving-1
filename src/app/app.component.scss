@@ -1,18 +1,17 @@
 .navbar {
   background-color: #000000;
   padding: 0px;
-  height: 10vh;
+  height: auto;
 }
 
 ul.nav.justify-content-end {
-  height: 10vh;
-  max-height: 10vh;
+  height: auto;
+  max-height: auto;
 }
 
 .nav-item {
   margin: 0px;
-  height: 10vh;
-  display: flex;
+  height: auto;
   justify-content: center;
   align-items: center;
 }
@@ -20,29 +19,32 @@ ul.nav.justify-content-end {
 .nav-link {
   font-size: 2rem;
   color: #FDFDFD;
+  height: auto;
+  background-color: #000000;
 }
 
 .nav-link:hover {
   background-color: #424242;
-  height: 10vh;
-  display: flex;
   align-items: center;
 }
 
 a.nav-link.active {
-  height: 10vh;
-  display: flex;
+  height: auto;
   justify-content: center;
   align-items: center;
 }
 
 #footer {
-  height: 8vh;
+  height: 4em;
   background-color: #7F7E7F;
   color: #FFFFFF;
   a {
     color: #FFFFFF;
   }
+}
+
+#footer.xs-footer {
+  font-size: 0.75rem;
 }
 
 .active {
@@ -51,5 +53,22 @@ a.nav-link.active {
 
 .comp-logo {
   cursor: pointer;
-  height: 10vh;
+  height: auto;
+  max-height: 10vh;
+}
+
+.navbar-toggler {
+  border-color: rgb(255, 255, 255);
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 255.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+button.navbar-toggler {
+  margin-right: 2em;
+}
+
+.container-fluid {
+  overflow: hidden;
 }

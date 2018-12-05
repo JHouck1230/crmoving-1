@@ -1,5 +1,5 @@
 #header {
-  height: 75vh;
+  height: 35em;
   padding-top: 3em;
 }
 
@@ -8,23 +8,23 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0em -5em;
-  height: 70vh;
+  height: 35em;
   width: 100%;
   position: absolute;
 }
 
 #moves {
-  height: 50vh;
+  height: 30em;
 }
 
 #packages {
-  height: 195vh;
+  height: 70em;
   background-color: #7F7E7F;
   color: #FFFFFF;
 }
 
 #testimonials {
-  height: 60vh;
+  height: 25em;
   background-color: #FFFFFF;
 }
 
@@ -34,22 +34,23 @@
 }
 
 .package {
-  height: 25vh;
+  height: 10em;
 }
 
 .package-main {
-  height: 45vh;
+  height: 20em;
 }
 
-.package-icon {
-  transform: scale(1.5);
-}
+// .package-icon {
+//   transform: scale(1.5);
+// }
 
 .testimonial {
   border: 1px solid #000000;
   border-radius: 15px;
   width: 15em;
-  height: 35vh;
+  max-width: 15em;
+  height: 15em;
   background-color: #FEFDFF;
   font-size: 0.65em;
 }
