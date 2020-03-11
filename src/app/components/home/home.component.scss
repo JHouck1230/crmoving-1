@@ -1,30 +1,30 @@
 #header {
-  height: 60vh;
-  padding-top: 2em;
+  height: 35em;
+  padding-top: 3em;
 }
 
 .header-bg {
   background-image: url(/assets/img/box-truck-12.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0em -5em;
-  height: 58vh;
+  background-position: 0em 0em;
+  height: 35em;
   width: 100%;
   position: absolute;
 }
 
 #moves {
-  height: 45vh;
+  height: 30em;
 }
 
 #packages {
-  height: 133vh;
+  height: auto;
   background-color: #7F7E7F;
   color: #FFFFFF;
 }
 
 #testimonials {
-  height: 50vh;
+  height: auto;
   background-color: #FFFFFF;
 }
 
@@ -34,31 +34,29 @@
 }
 
 .package {
-  height: 20vh;
+  height: 15em;
 }
 
-.package-icon {
-  transform: scale(1.5);
+.package-main {
+  height: 20em;
 }
+
+// .package-icon {
+//   transform: scale(1.5);
+// }
 
 .testimonial {
   border: 1px solid #000000;
   border-radius: 15px;
   width: 15em;
-  height: 32vh;
+  max-width: 15em;
+  height: 15em;
   background-color: #FEFDFF;
+  font-size: 0.65em;
 }
 
-.package-main {
-  height: 30vh;
-}
-
-.test-header {
-  // color: #FFFFFF;
-}
-
-.slogan-div {
-
+.testimonial > h5 {
+  font-size: 1em;
 }
 
 .slogan {
@@ -78,5 +76,4 @@
 
 .get-quote {
   background-color: rgba(226, 227, 229, 0.65) !important;
-  width: 40%;
 }
