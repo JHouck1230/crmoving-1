@@ -13,30 +13,9 @@ html {
   font-size: 1rem;
 }
 
-@include media-breakpoint-up(xs) {
-  html {
-    font-size: 1rem;
-  }
-  #packages {
-    height: 140em !important;
-  }
-  #testimonials {
-    height: 55em !important;
-  }
-  .header-bg {
-    background-position: -15em 0em !important;
-  }
-}
-
 @include media-breakpoint-up(sm) {
   html {
     font-size: 1.2rem;
-  }
-  #packages {
-    height: 110em !important;
-  }
-  #testimonials {
-    height: 35em !important;
   }
 }
 
@@ -49,21 +28,6 @@ html {
 @include media-breakpoint-up(lg) {
   html {
     font-size: 1.6rem;
-  }
-  #packages {
-    height: 100em !important;
-  }
-}
-
-@include media-breakpoint-up(xl) {
-  #packages {
-    height: 75em !important;
-  }
-  #testimonials {
-    height: 25em !important;
-  }
-  .header-bg {
-    background-position: 0em -5em !important;
   }
 }
 
